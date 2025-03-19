@@ -1,0 +1,20 @@
+{
+  "example.com": {
+    "response": {
+      "headers": {
+        "all": "HTTP/2 200 OK\nAccept-Ranges: bytes\nContent-Type: text/html\nEtag: \"84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134\"\nLast-Modified: Mon, 13 Jan 2025 20:11:20 GMT\nVary: Accept-Encoding\nContent-Length: 1256\nCache-Control: max-age=2558\nDate: Mon, 17 Mar 2025 04:13:48 GMT\nAlt-Svc: h3=\":443\"; ma=93600,h3-29=\":443\"; ma=93600,quic=\":443\"; ma=93600; v=\"43\""
+      },
+      "body": {
+        "all": "{\"success\":true}"
+      }
+    }
+  },
+  "test.com": {
+    "response": {
+      "headers": {
+        "Content-Type": "application/json",
+        "server": "CustomServer"
+      }
+    }
+  }
+}
